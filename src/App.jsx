@@ -7,7 +7,7 @@ import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import GetInTouch from "./components/GetInTouch";
 import Footer from "./components/Footer";
-import Mailto from "./components/mailto";
+import Mailto from "./components/Mailto";
 import Icons from "./components/Socials";
 
 function App() {
