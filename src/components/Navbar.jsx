@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import vLogo from "../assets/logo.png";
 import resume from "../assets/resume.pdf";
-import { motion } from "framer-motion";
 
 function Navbar() {
   const [lastScrollY, setLastScrollY] = useState(0);

@@ -1,4 +1,5 @@
 import React from "react";
+import behanceico from "../assets/behance.svg";
 
 function Icons() {
   return (
@@ -17,6 +18,11 @@ function Icons() {
           </svg>
         </a>
         <a href="https://www.behance.net/vaibhavdekatey" target="_blank">
+          {/* <img
+            src={behanceico}
+            className="-rotate-90 behance w-[28px] h-[28px] mx-[8px] hover:text-txt_secondary hover:-translate-x-1 transition ease-in"
+            fill="primary"
+          /> */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="28"

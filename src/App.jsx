@@ -13,15 +13,17 @@ import Icons from "./components/Socials";
 function App() {
   return (
     <>
-      <Navbar />
-      <Mailto />
-      <Icons />
-      <Hello />
-      <Hero />
-      <Exp />
-      <Projects />
-      <GetInTouch />
-      <Footer />
+      <div>
+        <Navbar />
+        <Mailto className="mailto" />
+        <Icons className="icons" />
+        <Hello />
+        <Hero />
+        <Exp />
+        <Projects />
+        <GetInTouch />
+        <Footer />
+      </div>
     </>
   );
 }
