@@ -59,7 +59,7 @@ function Navbar() {
                   className="m-4 text-txt_primary flex flex-row"
                   href={items.href}
                 >
-                  {items.id}
+                  {items.id}.
                   <p className="text-slate-300 hover:text-txt_primary hover:-translate-y-[1px] transition ease-in ml-1">
                     {items.text}
                   </p>
