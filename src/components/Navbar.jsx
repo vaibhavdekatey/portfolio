@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import vLogo from "../assets/logo.png";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/vaibhav_dekatey_2024.pdf";
 import menu from "../assets/icons/menu.svg";
 
 function Navbar() {
