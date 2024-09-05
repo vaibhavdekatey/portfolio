@@ -21,7 +21,7 @@ function Projects() {
             transition: { ease: "easeOut", duration: 0.5, delay: 0.1 },
           }}
           viewport={{ once: false, amount: 0.1 }}
-          className="mx-[24vw] mt-44 mb-64 w-[55vw] flex justify-center"
+          className="mx-[24vw] mt-44 mb-64 md:w-[55vw] sm:w-[64vw] flex justify-center"
         >
           <div className="flex flex-col">
             <div className="  text-txt_primary flex flex-row items-end align-text-bottom text-2xl font-robotoMono mb-16 border-slate-700 mr-7 ">
@@ -31,7 +31,7 @@ function Projects() {
               </p>
               <div className="border-b-2 border-slate-600 ml-2 self-center w-[16vw] mt-1" />
             </div>
-            <div>
+            <div className="sm:flex-col sm:justify-center">
               {projectList.map((project) =>
                 project.id % 2 === 0 ? (
                   <ProjectCardsEven
@@ -59,7 +59,7 @@ function Projects() {
               <div>
                 <p className="font-inconsolata">Other Noteworthy Projects</p>
               </div>
-              <div className="flex lg:flex-row md:flex-col">
+              <div className="flex lg:flex-row sm:flex-col">
                 {notableProjects.map((others) => (
                   <OtherProjects
                     key={others.id}

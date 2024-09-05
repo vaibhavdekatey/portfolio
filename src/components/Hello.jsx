@@ -6,7 +6,7 @@ function Hello() {
     <>
       <div
         id="hello"
-        className=" h-[950px] w-screen bg-gradient-to-b from-secondary to-primary flex flex-col "
+        className=" h-[950px]  w-screen bg-gradient-to-b from-secondary to-primary flex flex-col "
       >
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -16,7 +16,7 @@ function Hello() {
             transition: { ease: "easeOut", duration: 0.5, delay: 0.1 },
           }}
           viewport={{ once: false, amount: 0.1 }}
-          className=" lg:mx-[24vw] md:mx-[18vw] mt-48 mb-52"
+          className=" lg:mx-[24vw] md:mx-[18vw] sm:mx-[16vw] mt-48 mb-52"
         >
           <div>
             <motion.h6
@@ -31,13 +31,13 @@ function Hello() {
             >
               Hello, my name is
             </motion.h6>
-            <h1 className="  text-slate-400 lg:text-7xl md:text-6xl mb-5  font-poppins font-bold leading-tight ">
+            <div className="  text-slate-400 lg:text-7xl md:text-6xl sm:text-5xl mb-5  font-poppins font-bold leading-tight sm:leading-normal ">
               Vaibhav Dekatey
-              <h2 className="  text-gray-500 lg:text-7xl md:text-6xl mb-12 md:my-4 leading-tight font-bold">
-                Front-End Developer and <br />
+              <p className="  text-gray-500 lg:text-7xl md:text-6xl sm:text-4xl mb-12 md:my-4 leading-tight font-bold">
+                Front-End Developer & <br />
                 Graphics Designer!
-              </h2>
-            </h1>
+              </p>
+            </div>
 
             <p className="text-slate-400 font-outfit font-light text-xl mb-4 lg:mr-[40vh] md:mr-0">
               I'm a Computer Science and Engineering Graduate. Primarily

@@ -16,10 +16,10 @@ function Hero() {
           transition: { ease: "easeOut", duration: 0.5, delay: 0.1 },
         }}
         viewport={{ once: false, amount: 0.1 }}
-        className="mx-[24vw] md:mx-[18vw] mt-44 mb-64"
+        className="lg:mx-[24vw] md:mx-[18vw] sm:mx-[16vw] md:mt-44 mb-64"
       >
         <div className="flex lg:flex-row-reverse sm:flex-col-reverse">
-          <div className="flex flex-col mr-28 md:mr-0 ">
+          <div className="flex flex-col lg:mr-28 md:mr-0 ">
             <div className="  text-txt_primary flex flex-row items-end align-text-bottom text-2xl font-robotoMono mb-1 border-slate-700 mr-7 self">
               <p className="mb-[2px]">01.</p>
               <p className="text-slate-300 text-4xl px-3 font-poppins font-bold mt-[1px] flex">
@@ -27,15 +27,15 @@ function Hero() {
               </p>
               <div className="border-b-2 border-slate-600 ml-2 self-center w-[16vw] mt-1" />
             </div>
-            <div className="flex lg:flex-row-reverse md:flex-col">
+            <div className="flex lg:flex-row-reverse sm:flex-col ">
               <div className="flex items-end">
                 <img
                   src={me}
-                  className="object-cover w-[30vw] rounded-2xl md:my-8 hero"
+                  className="object-cover w-[30vw] rounded-2xl sm:my-6 hero"
                 />
               </div>
               <div className="mr-28 mt-5 md:mt-0 font-outfit font-light">
-                <p className="text-gray-300  text-xl mt-4">
+                <p className="text-gray-300  text-xl md:mt-4">
                   Hello! I'm Vaibhav Dekatey, from Nagpur also known as the
                   Orange City of India.
                 </p>

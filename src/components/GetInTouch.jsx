@@ -23,7 +23,7 @@ function GetInTouch() {
             <p className="text-slate-300 text-5xl px-3 font-poppins font-bold mb-[24px] flex">
               Get In Touch
             </p>
-            <p className="text-slate-50 text-center font-poppins font-extralight text-base w-[620px] mb-[36px]">
+            <p className="text-slate-50 text-center font-poppins font-extralight text-base md:w-[620px] mb-[36px]">
               My inbox is always open. Whether you have a question or just want
               to say hello, I'll try my best to get back to you! Feel free to
               mail me.
