@@ -3,20 +3,20 @@ import React from "react";
 function ProjectCardsEven(props) {
   return (
     <>
-      <div className="flex-row-reverse flex justify-between mb-[60px]">
-        <div className="flex flex-col min-w-[440px] min-h-[260px] mr-5 -translate-x-11">
+      <div className="lg:flex-row-reverse md:flex-col flex lg:justify-between md:items-center mb-[60px]">
+        <div className="flex flex-col lg:min-w-[440px] lg:min-h-[260px] lg:mr-5 lg:-translate-x-11">
           <img
             src={props.img_src}
-            className="w-[440px] h-[260px] bg-cover -z-1"
+            className="lg:w-[440px] lg:h-[260px] aspect-video bg-cover -z-1"
           />
-          <div className="w-[440px] h-[260px] bg-teal-300/20 hover:bg-transparent transition ease-in z-1 absolute" />
+          <div className="lg:w-[440px] lg:h-[260px] bg-teal-300/20 hover:bg-transparent transition ease-in z-1 absolute" />
         </div>
-        <div className="min-w-[640px] flex flex-col {translate-x-16} justify-center items-start z-10">
+        <div className="min-w-[640px] flex flex-col {translate-x-16} justify-center lg:items-start md:items-end z-10">
           <div className="flex flex-col text-slate-50 bg-secondary p-5 shadow-2xl font-inconsolata ">
             <p className="text-txt_primary text-xl mb-2">{props.title}</p>
             <p className="mb-4 ">{props.projectContext}</p>
           </div>
-          <div className="flex-row flex m-2">
+          <div className="flex-row flex m-2 md:-translate-y-12">
             <a href={props.github} target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

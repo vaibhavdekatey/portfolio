@@ -4,7 +4,7 @@ function OtherProjects(props) {
   return (
     <div>
       <a href={props.link} target="_blank">
-        <div className="w-[420px] h-[200px] m-[30px] p-6 flex flex-col bg-secondary/50 shadow-xl hover:shadow-2xl hover:-translate-y-3 transition ease-out">
+        <div className="lg:w-[420px] lg:h-[200px] lg:m-[30px] md:m-[20px] md:w-[400px] md:h-[200px] p-6 flex flex-col  bg-secondary/50 shadow-xl hover:shadow-2xl hover:-translate-y-3 transition ease-out">
           <div className="flex flex-row justify-between">
             <svg
               xmlns="http://www.w3.org/2000/svg"

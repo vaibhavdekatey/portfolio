@@ -59,7 +59,7 @@ function Projects() {
               <div>
                 <p className="font-inconsolata">Other Noteworthy Projects</p>
               </div>
-              <div className="flex flex-row">
+              <div className="flex lg:flex-row md:flex-col">
                 {notableProjects.map((others) => (
                   <OtherProjects
                     key={others.id}

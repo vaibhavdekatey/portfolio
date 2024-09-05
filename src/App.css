@@ -39,7 +39,7 @@ html {
   transform: translateY(-100%);
   transition: ease-in; /* Hide the navbar by moving it up */
 }
-
+/* 
 .mailto {
   position: fixed;
   bottom: -1rem;
@@ -48,4 +48,4 @@ html {
   margin-right: 16px;
   transform: rotate(90deg);
   transform-origin: bottom right;
-}
+} */

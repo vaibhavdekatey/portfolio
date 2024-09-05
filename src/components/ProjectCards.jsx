@@ -3,20 +3,20 @@ import React from "react";
 function ProjectCards(props) {
   return (
     <>
-      <div className="flex-row flex justify-between mb-[60px]">
-        <div className="flex flex-col min-w-[440px] min-h-[260px] mr-5">
+      <div className="lg:flex-row md:flex-col flex lg:justify-between md:items-center mb-[60px] ">
+        <div className="flex flex-col lg:min-w-[440px] lg:min-h-[260px] lg:mr-5">
           <img
             src={props.img_src}
-            className="w-[440px] h-[260px] bg-cover -z-1"
+            className="lg:w-[440px] lg:h-[260px] bg-cover -z-1"
           />
-          <div className="w-[440px] h-[260px] bg-teal-300/20 hover:bg-transparent transition ease-in z-1 absolute" />
+          <div className="lg:w-[440px] md:min-w-fit md:min-h-fit lg:h-[260px] bg-teal-300/20 hover:bg-transparent transition ease-in z-1 absolute" />
         </div>
-        <div className="flex flex-col -translate-x-16 justify-center items-end">
+        <div className="flex flex-col lg:-translate-x-16 justify-center items-end">
           <div className="flex flex-col text-slate-50 bg-secondary p-5 shadow-2xl font-inconsolata ">
             <p className="text-txt_primary text-xl mb-2">{props.title}</p>
             <p className="mb-4 ">{props.projectContext}</p>
           </div>
-          <div className="flex-row flex m-2">
+          <div className="flex-row flex m-2 md:-translate-y-12">
             <a href={props.github} target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
