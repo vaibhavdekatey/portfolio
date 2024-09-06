@@ -16,7 +16,7 @@ function Hello() {
             transition: { ease: "easeOut", duration: 0.5, delay: 0.1 },
           }}
           viewport={{ once: false, amount: 0.1 }}
-          className=" lg:mx-[24vw] md:mx-[18vw] sm:mx-[16vw] mt-48 mb-52"
+          className=" lg:mx-[24vw] md:mx-[18vw] sm:mx-[16vw] sm:mt-36 md:mt-48 mb-52"
         >
           <div>
             <motion.h6
@@ -31,19 +31,19 @@ function Hello() {
             >
               Hello, my name is
             </motion.h6>
-            <div className="  text-slate-400 lg:text-7xl md:text-6xl sm:text-5xl mb-5  font-poppins font-bold leading-tight sm:leading-normal ">
+            <div className="  text-slate-400 lg:text-7xl md:text-6xl sm:text-4xl mb-5  font-poppins font-bold leading-tight sm:leading-tight ">
               Vaibhav Dekatey
-              <p className="  text-gray-500 lg:text-7xl md:text-6xl sm:text-4xl mb-12 md:my-4 leading-tight font-bold">
+              <p className="  text-gray-500 lg:text-7xl md:text-6xl sm:text-2xl sm:mt-3 mb-12 md:my-4 leading-tight font-bold">
                 Front-End Developer & <br />
                 Graphics Designer!
               </p>
             </div>
 
-            <p className="text-slate-400 font-outfit font-light text-xl mb-4 lg:mr-[40vh] md:mr-0">
+            <p className="text-slate-400 font-outfit font-light md:text-xl mb-4 lg:mt-20 lg:mr-[40vh] md:mr-0 sm:text-sm">
               I'm a Computer Science and Engineering Graduate. Primarily
               interested in Front-End Development and Graphics Design.
             </p>
-            <p className="text-slate-400 font-outfit font-light text-xl mb-12 lg:mr-[40vh] md:mr-0">
+            <p className="text-slate-400 font-outfit font-light md:text-xl mb-12 lg:mr-[40vh] md:mr-0 sm:text-sm">
               I enjoy learning new skills and implementing them in real life!
             </p>
 

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import vLogo from "../assets/logo.png";
 import resume from "../assets/vaibhav_dekatey_2024.pdf";
-import menu from "../assets/icons/menu.svg";
 
 function Navbar() {
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -41,14 +40,17 @@ function Navbar() {
   return (
     <>
       <nav
-        className={`bg-secondary/50  drop-shadow-xl h-24 flex items-center fixed top-0 left-0 right-0 transition-transform duration-300 ease-in-out ${
+        className={`z-50 bg-secondary/50  drop-shadow-xl sm:h-20 md:h-24 flex items-center fixed top-0 left-0 right-0 transition-transform duration-300 ease-in-out ${
           isHidden ? "-translate-y-full" : "translate-y-0"
         }`}
       >
         <div className="  flex flex-row justify-between align-middle w-screen lg:mx-[240px] sm:px-4">
           <div className="flex justify-center items-center">
             <a href="#" className=" sm:ml-2 md:ml-0">
-              <img src={vLogo} className="min-w-14 max-w-14 shadow-2xl" />
+              <img
+                src={vLogo}
+                className="md:min-w-14 md:max-w-14 sm:min-w-10 sm:max-w-10"
+              />
             </a>
           </div>
           <div className="font-inconsolata text-sm flex md:flex-row  justify-center items-center text-slate-100">

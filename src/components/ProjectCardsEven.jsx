@@ -3,7 +3,7 @@ import React from "react";
 function ProjectCardsEven(props) {
   return (
     <>
-      <div className=" Even lg:flex-row-reverse sm:flex-col flex sm:w-[55vw] md:w-full lg:justify-between sm:items-center mb-[60px] ">
+      <div className=" Even lg:flex-row-reverse sm:flex-col flex sm:w-[75vw] md:w-full lg:justify-between sm:items-center mb-[60px] ">
         <div className="flex flex-col lg:min-w-[440px] lg:min-h-[260px] lg:mr-5 lg:-translate-x-11">
           <img
             src={props.img_src}

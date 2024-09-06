@@ -2,7 +2,7 @@ import React from "react";
 
 function Icons() {
   return (
-    <div className="flex-row items-end flex fixed text-3xl font-robotoMono text-txt_primary z-10 bg-transparent rotate-90 origin-bottom-left transition ease-in bottom-[16rem] left-[2.5rem]">
+    <div className="sm:hidden md:flex flex-row items-end flex fixed text-3xl font-robotoMono text-txt_primary z-10 bg-transparent rotate-90 origin-bottom-left transition ease-in bottom-[16rem] left-[2.5rem]">
       <div className="flex-row flex rotate ">
         <a href="https://github.com/vaibhavdekatey" target="_blank">
           <svg

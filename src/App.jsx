@@ -15,8 +15,8 @@ function App() {
     <>
       <div>
         <Navbar />
-        <Mailto className="mailto" />
-        <Icons className="icons" />
+        <Mailto />
+        <Icons />
         <Hello />
         <Hero />
         <Exp />

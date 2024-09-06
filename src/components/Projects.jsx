@@ -23,10 +23,10 @@ function Projects() {
           viewport={{ once: false, amount: 0.1 }}
           className="mx-[24vw] mt-44 mb-64 md:w-[55vw] sm:w-[64vw] flex justify-center"
         >
-          <div className="flex flex-col">
-            <div className="  text-txt_primary flex flex-row items-end align-text-bottom text-2xl font-robotoMono mb-16 border-slate-700 mr-7 ">
-              <p className="mb-[2px]">03.</p>
-              <p className="text-slate-300 text-4xl px-3 font-poppins font-bold mt-[1px] flex">
+          <div className="flex flex-col sm:items-center">
+            <div className="  text-txt_primary flex flex-row items-end align-text-bottom text-2xl font-robotoMono mb-16 border-slate-700 md:mr-7 ">
+              <p className="md:mb-[2px] ">03.</p>
+              <p className="text-slate-300 md:text-4xl sm:text-xl px-3 font-poppins font-bold mt-[1px] flex">
                 Some Things I've Built
               </p>
               <div className="border-b-2 border-slate-600 ml-2 self-center w-[16vw] mt-1" />

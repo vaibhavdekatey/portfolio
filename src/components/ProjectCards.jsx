@@ -3,7 +3,7 @@ import React from "react";
 function ProjectCards(props) {
   return (
     <>
-      <div className="Odd lg:flex-row sm:flex-col sm:w-[55vw] md:w-full flex lg:justify-between sm:items-center mb-[60px] md:px-0 ">
+      <div className="Odd lg:flex-row sm:flex-col sm:w-[75vw] md:w-full flex lg:justify-between sm:items-center mb-[60px] md:px-0 ">
         <div className="flex flex-col lg:min-w-[440px] lg:min-h-[260px] lg:mr-5">
           <img
             src={props.img_src}
