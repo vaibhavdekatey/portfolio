@@ -2,6 +2,22 @@ import React from "react";
 import me from "../assets/me.jpg";
 import { motion } from "framer-motion";
 
+const stacks = {
+  "Frontend: ": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React.js",
+    "Tailwind CSS",
+    "Bootstrap",
+    "jQuery",
+  ],
+  "Backend: ": ["Node.js", "Express.js"],
+  "Database: ": ["PostgreSQL"],
+  "Design Tools: ": ["Figma", "Adobe Illustrator"],
+  "Other Languages: ": ["Python"],
+};
+
 function Hero() {
   return (
     <div
@@ -28,7 +44,7 @@ function Hero() {
               <div className="border-b-2 border-slate-600 ml-2 self-center w-[16vw] mt-1" />
             </div>
             <div className="flex lg:flex-row-reverse sm:flex-col ">
-              <div className="flex items-end">
+              <div className="flex items-start">
                 <img
                   src={me}
                   className="object-cover w-[30vw] rounded-2xl sm:my-6 hero"
@@ -58,15 +74,30 @@ function Hero() {
                 </p>
 
                 <p className=" text-gray-200 mt-4 sm:text-base md:text-xl">
-                  Here are a few of the other activities that I love to do!
+                  Here's my tech stack:
                 </p>
-                <div className="w-64 mt-5">
-                  <ul className="text-txt_primary text-sm font-robotoMono list-disc list-inside mt-2 grid grid-cols-2 ">
+                <div className="w-72 mt-5 ">
+                  {Object.entries(stacks).map(([key, values]) => (
+                    <div key={key} className="  ">
+                      <div className="">
+                        <p className="text-white">{key}</p>
+                        <ul className="text-txt_primary text-sm font-robotoMono list-disc list-inside my-2 grid grid-cols-2 ">
+                          {values.map((value, index) => (
+                            <li key={index} className="mx-2">
+                              {value}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  ))}
+
+                  {/* <ul className="text-txt_primary text-sm font-robotoMono list-disc list-inside mt-2 grid grid-cols-2 ">
                     <li>Coding</li>
                     <li>Illustration</li>
                     <li>Gaming</li>
                     <li>Painting</li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
