@@ -27,7 +27,7 @@ function Hello() {
                 transition: { ease: "easeIn", duration: 0.2, delay: 0.1 },
               }}
               viewport={{ once: false, amount: 0.1 }}
-              className="text-txt_primary font-inconsolata mb-2 "
+              className="text-txt_primary font-inconsolata mb-2 hover:text-gray-300 hover:italic transition-all ease-out "
             >
               Hello, my name is
             </motion.h6>

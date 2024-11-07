@@ -74,10 +74,10 @@ function Hero() {
                 </p>
 
                 <p className=" text-gray-200 mt-4 sm:text-base md:text-xl">
-                  Here's my tech stack:
+                  Here are a few technologies I've been working recently:
                 </p>
                 <div className="w-72 mt-5 ">
-                  {Object.entries(stacks).map(([key, values]) => (
+                  {/* {Object.entries(stacks).map(([key, values]) => (
                     <div key={key} className="  ">
                       <div className="">
                         <p className="text-white">{key}</p>
@@ -90,14 +90,14 @@ function Hero() {
                         </ul>
                       </div>
                     </div>
-                  ))}
+                  ))} */}
 
-                  {/* <ul className="text-txt_primary text-sm font-robotoMono list-disc list-inside mt-2 grid grid-cols-2 ">
-                    <li>Coding</li>
-                    <li>Illustration</li>
-                    <li>Gaming</li>
-                    <li>Painting</li>
-                  </ul> */}
+                  <ul className="text-txt_primary text-sm font-robotoMono list-disc list-inside mt-2 grid grid-cols-2 ">
+                    <li>React.js</li>
+                    <li>React Native</li>
+                    <li>PostgreSQL</li>
+                    <li>Figma</li>
+                  </ul>
                 </div>
               </div>
             </div>
