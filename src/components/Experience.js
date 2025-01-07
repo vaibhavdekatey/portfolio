@@ -35,6 +35,17 @@ const experience = [
       "Creating front-end for the project",
     ],
   },
+  {
+    id: 4,
+    title: "Front-End Developer",
+    where: "Brewtime India",
+    yr: "August 2024 - Present",
+    resp: [
+      "Developed a React Native app integrated with Supabase, enabling real-time user-generated coffee recipes and seamless data management.",
+      "Designed and launched an e-commerce website on Wix, featuring responsive design and optimized user experience for coffee accessories.",
+      "Leveraged analytics to identify areas of improvement, enhancing app usability and performance.",
+    ],
+  },
 ];
 
 export default experience;

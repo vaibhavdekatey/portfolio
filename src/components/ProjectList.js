@@ -1,6 +1,15 @@
 const projectList = [
   {
     id: 1,
+    projectTitle: "BrewTime Recipe App",
+    img_src: "projects/brewtime.jpg",
+    projectContext:
+      "An NFT collection generated completely with the help of AI. This is a unique collection as it does not use layer formations like most of the current OpenSea listings.",
+    gitHub: "https://github.com/vaibhavdekatey/TP_Landing-Page",
+    link: "https://tportalslandingpage.netlify.app",
+  },
+  {
+    id: 2,
     projectTitle: "T-Portals",
     img_src: "projects/bg.png",
     projectContext:
@@ -9,7 +18,7 @@ const projectList = [
     link: "https://tportalslandingpage.netlify.app",
   },
   {
-    id: 2,
+    id: 3,
     projectTitle: "OpenEXC",
     img_src: "projects/openexc.png",
     projectContext:
@@ -17,15 +26,15 @@ const projectList = [
     gitHub: "https://github.com/vaibhavdekatey/Crypto-Exchange-Project/",
     link: "https://openexc.netlify.app",
   },
-  {
-    id: 3,
-    projectTitle: "AI Yoga Trainer",
-    img_src: "projects/yogatrainer.png",
-    projectContext:
-      "The AI Yoga Trainer project uses AI position recognition to provide an interactive yoga training experience. The system employs machine learning models to analyze body poses, providing real-time feedback.",
-    gitHub: "https://github.com/vaibhavdekatey/Yoga-Trainer",
-    link: "https://yogtrainer.netlify.app/",
-  },
+  // {
+  //   id: 3,
+  //   projectTitle: "AI Yoga Trainer",
+  //   img_src: "projects/yogatrainer.png",
+  //   projectContext:
+  //     "The AI Yoga Trainer project uses AI position recognition to provide an interactive yoga training experience. The system employs machine learning models to analyze body poses, providing real-time feedback.",
+  //   gitHub: "https://github.com/vaibhavdekatey/Yoga-Trainer",
+  //   link: "https://yogtrainer.netlify.app/",
+  // },
   {
     id: 4,
     projectTitle: "Otaku Compass",

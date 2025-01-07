@@ -4,10 +4,10 @@ function ProjectCards(props) {
   return (
     <>
       <div className="Odd lg:flex-row sm:flex-col sm:w-[75vw] md:w-full flex lg:justify-between sm:items-center mb-[60px] md:px-0 ">
-        <div className="flex flex-col lg:min-w-[440px] lg:min-h-[260px] lg:mr-5">
+        <div className="flex flex-col lg:min-w-[440px] lg:min-h-[260px] lg:mr-5 ">
           <img
             src={props.img_src}
-            className="lg:w-[440px] lg:h-[260px] bg-cover -z-1"
+            className=" lg:w-[440px] lg:h-[260px] bg-cover -z-1 "
           />
           <div className="lg:w-[440px] sm:min-w-fit sm:min-h-fit lg:h-[260px] bg-teal-300/20 hover:bg-transparent transition ease-in z-1 absolute" />
         </div>
