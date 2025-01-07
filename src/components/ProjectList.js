@@ -4,9 +4,9 @@ const projectList = [
     projectTitle: "BrewTime Recipe App",
     img_src: "projects/brewtime.jpg",
     projectContext:
-      "An NFT collection generated completely with the help of AI. This is a unique collection as it does not use layer formations like most of the current OpenSea listings.",
-    gitHub: "https://github.com/vaibhavdekatey/TP_Landing-Page",
-    link: "https://tportalslandingpage.netlify.app",
+      "A React Native app with Supabase, featuring user-generated coffee recipes, real-time updates, and a dynamic, intuitive interface.",
+    gitHub: "#",
+    link: "#",
   },
   {
     id: 2,

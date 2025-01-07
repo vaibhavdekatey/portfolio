@@ -16,6 +16,15 @@ const notableProjects = [
     link: "#",
     stack: ["Js"],
   },
+  {
+    id: 3,
+    projectTitle: "AI Yoga Trainer",
+    projectContext:
+      "The AI Yoga Trainer project uses AI position recognition to provide an interactive yoga training experience.",
+    gitHub: "https://github.com/vaibhavdekatey/Yoga-Trainer",
+    link: "https://yogtrainer.netlify.app/",
+    stack: ["HTML, CSS ,JS"],
+  },
 ];
 
 export default notableProjects;
