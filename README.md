@@ -20,8 +20,7 @@ Welcome to my portfolio website! This project showcases my skills, projects, and
 
 - **Frontend Framework:** React.js
 - **Styling:** Tailwind CSS
-- **Build Tool:** Vite (optional)
-- **Version Control:** Git and GitHub
+- **Build Tool:** Vite
 
 ---
 
