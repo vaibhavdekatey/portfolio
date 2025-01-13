@@ -9,20 +9,24 @@ import GetInTouch from "./components/GetInTouch";
 import Footer from "./components/Footer";
 import Mailto from "./components/Mailto";
 import Icons from "./components/Socials";
+import Blob from "./components/Blob";
 
 function App() {
   return (
     <>
       <div>
-        <Navbar />
-        <Mailto />
-        <Icons />
-        <Hello />
-        <Hero />
-        <Exp />
-        <Projects />
-        <GetInTouch />
-        <Footer />
+        <Blob />
+        <div style={{ zIndex: 20 }}>
+          <Navbar />
+          <Mailto />
+          <Icons />
+          <Hello />
+          <Hero />
+          <Exp />
+          <Projects />
+          <GetInTouch />
+          <Footer />
+        </div>
       </div>
     </>
   );
