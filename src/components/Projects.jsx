@@ -31,7 +31,7 @@ function Projects() {
               </p>
               <div className="border-b-2 border-slate-600 ml-2 self-center w-[16vw] mt-1" />
             </div>
-            <div className="sm:flex-col sm:justify-center">
+            <div className="sm:flex-col sm:justify-center lg:mx-36">
               {projectList.map((project) =>
                 project.id % 2 === 0 ? (
                   <ProjectCardsEven

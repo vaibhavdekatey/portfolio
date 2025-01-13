@@ -33,7 +33,7 @@ function Exp() {
               <div className="border-b-2 border-slate-600 ml-2 self-center w-[16vw] mt-1" />
             </div>
             <div className="flex w-full">
-              <div className="flex md:flex-row sm:flex-col w-[50vw]">
+              <div className="flex md:flex-row sm:flex-col w-[50vw] sm:w-full">
                 <div className="flex sm:flex-col md:flex-col  sm:mb-8">
                   {rev.map((work, index) => (
                     <p
@@ -49,27 +49,29 @@ function Exp() {
                     </p>
                   ))}
                 </div>
-                <div className="flex-col flex text-xl text-slate-400 transition-opacity opacity-100 duration-700 ease-in">
-                  <p className="text-xl text-slate-400 font-poppins sm:flex-col font-medium flex lg:flex-row">
-                    {rev[active].title}
-                    <p className="lg:mx-2 md:mx-0 text-txt_primary ">
-                      @{rev[active].where}
+                <div className="md:w-[40vw]">
+                  <div className="flex-col flex text-xl text-slate-400 transition-opacity opacity-100 duration-700 ease-in md:w-full">
+                    <p className="text-xl text-slate-400 font-poppins sm:flex-col font-medium flex lg:flex-row">
+                      {rev[active].title}
+                      <p className="lg:mx-2 md:mx-0 text-txt_primary ">
+                        @{rev[active].where}
+                      </p>
                     </p>
-                  </p>
 
-                  <p className="text-sm font-robotoMono mt-2 mb-6">
-                    {rev[active].yr}
-                  </p>
-                  <ul>
-                    {rev[active].resp.map((resp, idx) => (
-                      <li
-                        key={idx}
-                        className="text-sm font-inconsolata list-disc list-outside ml-5 mb-4"
-                      >
-                        {resp}
-                      </li>
-                    ))}
-                  </ul>
+                    <p className="text-sm font-robotoMono mt-2 mb-6">
+                      {rev[active].yr}
+                    </p>
+                    <ul>
+                      {rev[active].resp.map((resp, idx) => (
+                        <li
+                          key={idx}
+                          className="text-sm font-inconsolata list-disc list-outside ml-5 mb-4"
+                        >
+                          {resp}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
