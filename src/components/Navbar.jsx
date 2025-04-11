@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import vLogo from "../assets/logo.png";
-import resume from "../assets/vaibhav_dekatey_2025.pdf";
+import resume from "../assets/vaibhav_dekatey_resume_2025.pdf";
 
 function Navbar() {
   const [lastScrollY, setLastScrollY] = useState(0);
