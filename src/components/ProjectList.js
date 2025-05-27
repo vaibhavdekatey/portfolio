@@ -10,6 +10,15 @@ const projectList = [
   },
   {
     id: 2,
+    projectTitle: "LabelGen",
+    img_src: "projects/labelgen.jpg",
+    projectContext:
+      "An AI Powered Label Generator for Coffee Enthusiasts to keep track of your precious coffee beans. Download your labels as Image or PDF",
+    gitHub: "#",
+    link: "https://label.brewtime.tech",
+  },
+  {
+    id: 3,
     projectTitle: "T-Portals",
     img_src: "projects/bg.png",
     projectContext:
@@ -18,7 +27,7 @@ const projectList = [
     link: "https://tportalslandingpage.netlify.app",
   },
   {
-    id: 3,
+    id: 4,
     projectTitle: "OpenEXC",
     img_src: "projects/openexc.png",
     projectContext:
@@ -36,7 +45,7 @@ const projectList = [
   //   link: "https://yogtrainer.netlify.app/",
   // },
   {
-    id: 4,
+    id: 5,
     projectTitle: "Otaku Compass",
     img_src: "projects/otaku-compass.png",
     projectContext:

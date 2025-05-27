@@ -7,9 +7,9 @@ function ProjectCardsEven(props) {
         <div className="flex flex-col lg:min-w-[440px] lg:min-h-[260px] lg:mr-5 lg:-translate-x-11">
           <img
             src={props.img_src}
-            className="lg:w-[440px] lg:h-[260px] aspect-video bg-cover -z-1"
+            className="lg:w-[440px] lg:h-[256px] aspect-video bg-cover -z-1"
           />
-          <div className="lg:w-[440px] lg:h-[260px] sm:min-w-fit sm:min-h-fit bg-teal-300/20 hover:bg-transparent transition ease-in z-1 absolute" />
+          <div className="lg:w-[440px] lg:h-[256px] sm:min-w-fit sm:min-h-fit bg-teal-300/20 hover:bg-transparent transition ease-in z-1 absolute" />
         </div>
         <div className="md:min-w-[640px] flex flex-col  justify-center sm:items-end z-10">
           <div className="flex flex-col text-slate-50 bg-secondary md:p-5 sm:p-5 sm:pb-10 shadow-2xl font-inconsolata ">

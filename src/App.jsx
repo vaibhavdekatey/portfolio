@@ -14,7 +14,7 @@ import Blob from "./components/Blob";
 function App() {
   return (
     <>
-      <div>
+      <div className="overflow-clip">
         <Blob />
         <div style={{ zIndex: 20 }}>
           <Navbar />

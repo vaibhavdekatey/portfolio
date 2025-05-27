@@ -7,9 +7,9 @@ function ProjectCards(props) {
         <div className="flex flex-col lg:min-w-[440px] lg:min-h-[260px] lg:mr-5 ">
           <img
             src={props.img_src}
-            className=" lg:w-[440px] lg:h-[260px] bg-cover -z-1 "
+            className=" lg:w-[440px] lg:h-[256px] bg-cover -z-1 "
           />
-          <div className="lg:w-[440px] sm:min-w-fit sm:min-h-fit lg:h-[260px] bg-teal-300/20 hover:bg-transparent transition ease-in z-1 absolute" />
+          <div className="lg:w-[440px] sm:min-w-fit sm:min-h-fit lg:h-[256px] bg-teal-300/20 hover:bg-transparent transition ease-in z-1 absolute" />
         </div>
         <div className="flex flex-col lg:-translate-x-16 justify-center items-end">
           <div className="flex flex-col text-slate-50 bg-secondary md:p-5 sm:p-5 sm:pb-10 shadow-2xl font-inconsolata ">
