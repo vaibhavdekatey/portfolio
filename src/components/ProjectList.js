@@ -50,7 +50,7 @@ const projectList = [
     img_src: "projects/otaku-compass.png",
     projectContext:
       "Otaku Compass is an app where you can search for anime and explore a wide database of titles. It also gives you random recommendations to help you find something new to watch.",
-    gitHub: "https://github.com/vaibhavdekatey/Yoga-Trainer",
+    gitHub: "https://github.com/vaibhavdekatey/Otaku-Compass-React",
     link: "https://otaku-compass.vercel.app/",
   },
 ];
