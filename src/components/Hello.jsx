@@ -31,7 +31,7 @@ function Hello() {
             <div className="  text-slate-400 lg:text-7xl md:text-6xl sm:text-4xl mb-5  font-poppins font-bold leading-tight sm:leading-tight ">
               Vaibhav Dekatey
               <p className="  text-gray-500 lg:text-7xl md:text-6xl sm:text-2xl sm:mt-3 mb-12 md:my-4 leading-tight font-bold">
-                A Fullstack Developer | <br />
+                Fullstack Developer |<br />
                 IoT & Automation
               </p>
             </div>
