@@ -31,14 +31,14 @@ function Hello() {
             <div className="  text-slate-400 lg:text-7xl md:text-6xl sm:text-4xl mb-5  font-poppins font-bold leading-tight sm:leading-tight ">
               Vaibhav Dekatey
               <p className="  text-gray-500 lg:text-7xl md:text-6xl sm:text-2xl sm:mt-3 mb-12 md:my-4 leading-tight font-bold">
-                Fullstack Developer |<br />
-                IoT & Automation
+                Front-end Developer &<br />
+                Graphics Designer!
               </p>
             </div>
 
             <p className="text-slate-400 font-outfit font-light md:text-xl mb-4 lg:mt-20 lg:mr-[40vh] md:mr-0 sm:text-sm">
               I'm a Computer Science and Engineering Graduate. Primarily
-              interested in Fullstack Development.
+              interested in Front-End Development & Graphics Design.
             </p>
             <p className="text-slate-400 font-outfit font-light md:text-xl mb-12 lg:mr-[40vh] md:mr-0 sm:text-sm">
               I enjoy learning new skills and implementing them in real life!
