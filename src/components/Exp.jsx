@@ -34,7 +34,7 @@ function Exp() {
             </div>
             <div className="flex w-full">
               <div className="flex md:flex-row sm:flex-col w-[50vw] sm:w-full">
-                <div className="flex sm:flex-col md:flex-col  sm:mb-8 w-full">
+                <div className="flex sm:flex-col md:flex-col  sm:mb-8 w-full md:w-fit">
                   {rev.map((work, index) => (
                     <p
                       key={work.id}
