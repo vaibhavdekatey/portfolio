@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import experience from "./Experience";
 import { motion } from "framer-motion";
 
@@ -6,7 +6,7 @@ function Exp() {
   const [active, setActive] = useState(0);
   // const activeExp = experience.find((work) => work.id === active);
   const rev = [...experience].reverse();
-  console.log(rev);
+  // console.log(rev);
 
   return (
     <>
@@ -34,7 +34,7 @@ function Exp() {
             </div>
             <div className="flex w-full">
               <div className="flex md:flex-row sm:flex-col w-[50vw] sm:w-full">
-                <div className="flex sm:flex-col md:flex-col  sm:mb-8">
+                <div className="flex sm:flex-col md:flex-col  sm:mb-8 w-full">
                   {rev.map((work, index) => (
                     <p
                       key={work.id}
@@ -43,7 +43,7 @@ function Exp() {
                         active === index
                           ? `text-txt_primary border-txt_primary md:border-l-2 md:border-b-0 sm:bg-txt_primary/15 transition ease-in`
                           : `text-slate-400 border-slate-500 md:border-l-2 md:border-b-0 sm:bg-slate-500/10`
-                      } md:mr-8 sm:mr-1 font-robotoMono text-sm hover:text-txt_primary md:hover:border-l-2 md:hover:border-b-0 sm:w-[140px] md:w-[180px] hover:border-txt_primary hover:bg-txt_primary/10 h-[44px] items-center justify-center flex transition ease-in`}
+                      } w-full md:mr-8 sm:mr-1 font-robotoMono text-sm hover:text-txt_primary md:hover:border-l-2 md:hover:border-b-0  md:w-[180px] hover:border-txt_primary hover:bg-txt_primary/10 h-[44px] items-center justify-center flex transition ease-in`}
                     >
                       {work.where}
                     </p>

@@ -2,7 +2,8 @@ const experience = [
   {
     id: 1,
     title: "Outreach & Media Co-leader",
-    where: "Codechef DYPIU.",
+    where: "Codechef DYPIU",
+    location: "Pune, Remote",
     yr: "June 2020 - March 2021",
     resp: [
       "Promottion of DSA 2020 with help of other notable codechef college chapters. ",
@@ -14,7 +15,8 @@ const experience = [
   {
     id: 2,
     title: "Project Intern",
-    where: "DYPIU, Pune.",
+    where: "DYPIU, Pune",
+    location: "Pune, Remote",
     yr: "April 2021 - June 2021",
     resp: [
       "A 6-week joint Project internship.",
@@ -27,6 +29,7 @@ const experience = [
     id: 3,
     title: "Project Intern",
     where: "Wajooba LLC.",
+    location: "Pune, Remote",
     yr: "Feb 2023 - August 2023",
     resp: [
       "Writing solidity smart contracts",
@@ -37,13 +40,26 @@ const experience = [
   },
   {
     id: 4,
-    title: "Front-End Developer",
+    title: "Co-founder & Front-End Developer",
     where: "Brewtime India",
-    yr: "August 2024 - Present",
+    location: "India, Remote",
+    yr: "August 2024 - October 2025",
     resp: [
       "Developed a React Native app integrated with Supabase, enabling real-time user-generated coffee recipes and seamless data management.",
       "Designed and launched an e-commerce website on Wix, featuring responsive design and optimized user experience for coffee accessories.",
       "Leveraged analytics to identify areas of improvement, enhancing app usability and performance.",
+    ],
+  },
+  {
+    id: 5,
+    title: "Web Development & Robotics Integration Intern",
+    where: "N K Engineering",
+    location: "Ghaziabad, On-site",
+    yr: "October 2025 - February 2026",
+    resp: [
+      "Shipped a responsive, SEO-Optimized Landing page, landing the company on the map, and entry into a digital presence.",
+      "Built a real-time QC dashboard for on-site part inspection, replacing a fully manual review workflow.",
+      "Integrated computer vision inference for automated defect flagging, reducing manual inspection over-head.",
     ],
   },
 ];

@@ -1,4 +1,3 @@
-import React from "react";
 import ProjectCards from "./ProjectCards";
 import projectList from "./ProjectList";
 import OtherProjects from "./OtherProjects";
@@ -27,7 +26,7 @@ function Projects() {
             <div className="  text-txt_primary flex flex-row items-end align-text-bottom text-2xl font-robotoMono mb-16 border-slate-700 md:mr-7 ">
               <p className="md:mb-[2px] ">03.</p>
               <p className="text-slate-300 md:text-4xl sm:text-xl px-3 font-poppins font-bold mt-[1px] flex">
-                Some Things I've Built
+                Some Things {"I've"} Built
               </p>
               <div className="border-b-2 border-slate-600 ml-2 self-center w-[16vw] mt-1" />
             </div>
@@ -51,7 +50,7 @@ function Projects() {
                     github={project.gitHub}
                     link={project.link}
                   />
-                )
+                ),
               )}
             </div>
 

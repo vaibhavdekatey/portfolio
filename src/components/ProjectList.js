@@ -1,6 +1,24 @@
 const projectList = [
   {
     id: 1,
+    projectTitle: "Aquakaari Online Store",
+    img_src: "projects/aquakaari.jpg",
+    projectContext:
+      "Built and launched a clean, conversion-focused Shopify storefront for a coffee post-brew mineral brand.",
+    gitHub: "#",
+    link: "https://www.aquakaari.com",
+  },
+  {
+    id: 2,
+    projectTitle: "NKE Landing",
+    img_src: "projects/nke.jpg",
+    projectContext:
+      "Built a landing page for a robotics engineering company to establish digital presence, highlight technical expertise, and build client trust.",
+    gitHub: "#",
+    link: "https://www.nkeorg.com",
+  },
+  {
+    id: 3,
     projectTitle: "BrewTime Recipe App",
     img_src: "projects/brewtime.jpg",
     projectContext:
@@ -9,7 +27,7 @@ const projectList = [
     link: "#",
   },
   {
-    id: 2,
+    id: 4,
     projectTitle: "LabelGen",
     img_src: "projects/labelgen.jpg",
     projectContext:
@@ -17,17 +35,17 @@ const projectList = [
     gitHub: "#",
     link: "https://label.brewtime.tech",
   },
+  // {
+  //   id: 4,
+  //   projectTitle: "T-Portals",
+  //   img_src: "projects/bg.png",
+  //   projectContext:
+  //     "An NFT collection generated completely with the help of AI. This is a unique collection as it does not use layer formations like most of the current OpenSea listings.",
+  //   gitHub: "https://github.com/vaibhavdekatey/TP_Landing-Page",
+  //   link: "https://tportalslandingpage.netlify.app",
+  // },
   {
-    id: 3,
-    projectTitle: "T-Portals",
-    img_src: "projects/bg.png",
-    projectContext:
-      "An NFT collection generated completely with the help of AI. This is a unique collection as it does not use layer formations like most of the current OpenSea listings.",
-    gitHub: "https://github.com/vaibhavdekatey/TP_Landing-Page",
-    link: "https://tportalslandingpage.netlify.app",
-  },
-  {
-    id: 4,
+    id: 5,
     projectTitle: "OpenEXC",
     img_src: "projects/openexc.png",
     projectContext:
@@ -45,7 +63,7 @@ const projectList = [
   //   link: "https://yogtrainer.netlify.app/",
   // },
   {
-    id: 5,
+    id: 6,
     projectTitle: "Otaku Compass",
     img_src: "projects/otaku-compass.png",
     projectContext:

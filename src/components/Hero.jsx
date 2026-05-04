@@ -32,9 +32,9 @@ function Hero() {
           transition: { ease: "easeOut", duration: 0.5, delay: 0.1 },
         }}
         viewport={{ once: false, amount: 0.1 }}
-        className="lg:mx-[24vw] md:mx-[18vw] sm:mx-[12vw] md:mt-44 mb-64"
+        className="lg:mx-[24vw] md:mx-[18vw] sm:mx-[12vw] md:mt-44 mb-64  "
       >
-        <div className="flex lg:flex-row-reverse sm:flex-col-reverse">
+        <div className="flex lg:flex-row-reverse sm:flex-col-reverse w-full">
           <div className="flex flex-col lg:mr-28 sm:mx-11 ">
             <div className="  text-txt_primary flex flex-row items-end align-text-bottom text-2xl font-robotoMono mb-1 border-slate-700 md:mr-7 self">
               <p className="mb-[2px]">01.</p>
@@ -47,7 +47,7 @@ function Hero() {
               <div className="flex items-start">
                 <img
                   src={me}
-                  className="object-cover w-[30vw] rounded-2xl sm:my-6 hero"
+                  className="object-cover min-w-[14vw] rounded-2xl sm:my-6 hero"
                 />
               </div>
               <div className="md:mr-28 mt-5 md:mt-0 font-outfit font-light">
@@ -56,12 +56,13 @@ function Hero() {
                   Orange City of India.
                 </p>
                 <p className="text-gray-300 sm:text-base md:text-xl mt-4">
-                  Experience in blending the art of design with skill of
-                  programming with strong organizational skills, and meticulous
-                  attention to detail.
+                  I’ve built apps end-to-end, both web and mobile and i have
+                  created systems that are clean, and ready to scale. With that
+                  said I keep the stack simple, the architecture clean, and I
+                  deliver what’s needed.
                 </p>
 
-                <p className="text-gray-300 sm:text-base md:text-xl mt-4 ">
+                {/* <p className="text-gray-300 sm:text-base md:text-xl mt-4 ">
                   Pursued my Bachelors from
                   <a
                     className="md:mx-3 sm:mx-1 text-txt_primary hover:text-txt_secondary transition ease-in-out"
@@ -71,7 +72,7 @@ function Hero() {
                     DYPIU, Pune
                   </a>
                   in Computer Science and Engineering.
-                </p>
+                </p>*/}
 
                 <p className=" text-gray-200 mt-4 sm:text-base md:text-xl">
                   Here are a few technologies I've been working recently:
